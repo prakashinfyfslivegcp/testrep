@@ -7,10 +7,6 @@ on:
     paths:
       - 'test/**'
   pull_request:
-  
-defaults:
-  run:
-    working-directory: test
 
 jobs:
   terraform:
